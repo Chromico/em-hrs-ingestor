@@ -203,7 +203,7 @@ dependencyCheck {
 dependencyManagement {
   dependencies {
 
-    dependencySet(group: 'com.google.guava', version: '30.1.1-jre') {
+    dependencySet(group: 'com.google.guava', version: '31.0.1-jre') {
       // Guava CVE-2018-10237 - Unbounded memory allocation
       entry 'guava'
     }
@@ -219,7 +219,7 @@ dependencyManagement {
     }
 
     // CVE-2021-37136, CVE-2021-37137
-    dependencySet(group: 'io.netty', version: '4.1.69.Final') {
+    dependencySet(group: 'io.netty', version: '4.1.70.Final') {
       entry 'netty-buffer'
       entry 'netty-codec'
       entry 'netty-common'
